@@ -1,0 +1,9 @@
+name: retailpulse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - openjdk=17
+  - pip:
+      - -r requirements.txt
